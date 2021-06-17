@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0%;
+        margin:0%;
+    }
+.contenedor{
+    display: grid;
+ grid-template-areas: 
+ 'header header header header header'
+ 'columnaizq main main main main' 
+ 'columnaizq rec rec rec2 rec2'
+ 'columnaizq cuadro cuadro1 cuadro2 cuadro3'
+ 'columnaizq cuadrog cuadrog cuadrog cuadrog'
+ 'columnaizq cuadroen cuadroen  cuadroen2 cuadroen2'
+ 'columnaizq cuadrofin cuadrofin cuadrofin cuadrofin'
+ 'columnaizq cuadrofin2 cuadrofin2 cuadrofin2 cuadrofin2';
+
+background-image: radial-gradient(rgb(250, 123, 144),teal);
+}
+.contenedor div{
+    background-color: blueviolet;
+   padding: 10px;
+    border: solid 2px black;
+    
+}
+.header{
+   grid-area: header;
+   height: 40px;
+    background-image:radial-gradient(red,yellow);
+}
+.recizq{
+    grid-area:columnaizq;
+    background-image: linear-gradient(aqua,rgb(86, 240, 86));
+    width: 40vh;
+}
+.main{
+    grid-area: main;
+    margin-left: 28px;
+    height: 260px;
+    width: 153vh;
+    margin-top:200px;
+    background-image: radial-gradient(tomato,rgb(212, 112, 212));
+}
+.footer{
+    grid-area: rec;
+    margin-left: 28px;
+    margin-top: 25px;
+    height: 75vh;
+    background-image: linear-gradient(rgb(173, 9, 173), blue);
+}
+.rec{
+    grid-area: rec2;
+    margin-left: 28px;
+    margin-top: 25px;
+    height: 75vh;
+}
+.cuadro{
+    grid-area: cuadro;
+      margin-left: 28px;
+    margin-top: 25px;
+    height: 30vh;
+}
+.cuadro1{
+    grid-area: cuadro1;
+    margin-left: 28px;
+    margin-top: 25px;
+    height: 30vh;
+}
+.cuadro2{
+    grid-area: cuadro2;
+    margin-left: 28px;
+    margin-top: 25px;
+    height: 30vh;
+}
+.cuadro3{
+    grid-area: cuadro3;
+    margin-left: 28px;
+    margin-top: 25px;
+    height: 30vh;
+}
+.cuadrog{
+    grid-area: cuadrog;
+    margin-left: 28px;
+    margin-top: 25px;
+    height: 95vh;
+}
+.cuadroen{
+     grid-area: cuadroen;
+    margin-left: 28px;
+    margin-top: 25px;
+    height: 80vh;
+}
+.cuadroen2{
+    grid-area: cuadroen2;
+    margin: 2px;
+    margin-left: 28px;
+    margin-top: 25px;
+    height: 80vh;
+}
+.cuadrofin{
+grid-area: cuadrofin;
+height: 80px;
+margin-left: 28px;
+   margin-top: 25px;
+}
+.cuadrofin2{
+    grid-area: cuadrofin2;
+    height: 80px;
+    margin-left: 28px;
+}
+
+
+</style>
+<body>
+<div class="contenedor">
+    <div class="header">1</div>
+    <div class="recizq">2</div>
+    <div class="main">3</div>
+    <div class="footer">4</div>
+    <div class="rec">5</div>
+    <div class="cuadro">6</div>
+    <div class="cuadro2">7</div>
+   <div class="cuadrog"></div>
+   <div class="cuadroen"></div>
+   <div class="cuadroen2"></div>
+   <div class="cuadrofin"></div>
+   <div class="cuadrofin2"></div>
+   <div class="cuadro1"></div>
+   <div class="cuadro3"></div>
+
+   
+   
+   
+</div>
+</body>
+</html>
